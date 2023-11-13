@@ -1,0 +1,545 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    background-color: #000000;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+/*HEADER*/
+
+nav .container {
+    max-width: 100%;
+    background-color: none;
+}
+
+.container .navbar-brand img {
+    transition: all 300ms;
+    width: 300px;
+}
+
+.container .navbar-brand img:hover {
+    transform: scale(1.30);
+}
+
+.nav-item a {
+    margin: 3px;
+    letter-spacing: .2em;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+/* Desplegable*/
+
+nav .offcanvas {
+    background-color: #1e293b;
+}
+
+.offcanvas-header .btn-close {
+
+    align-items: none;
+}
+
+
+.offcanvas-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.logocruz {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* redes sociales HEADER*/
+
+.red-socialheadear a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.red-socialheadear {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.red-socialheadear a:hover {
+    color: rgb(0, 0, 0);
+    transform: scale(1.45);
+}
+
+
+/* SECCION FECHAS */
+
+.fechascontainer img {
+    width: 50%;
+    margin: 25px;
+    transition: all 300ms;
+}
+
+.fechascontainer img:hover {
+    transform: scale(1.15);
+}
+
+/* .fechascontainer .imagen1 {
+    margin-left: 40%;
+}
+
+.fechascontainer .imagen2 {
+    margin-right: 40%;
+} */
+
+
+.fechascontainer h2 {
+    background-color: #0d2033;
+    padding: 20px;
+    color: #ffffff;
+    box-shadow: 0px 5px 15px rgb(50, 50, 48);
+    margin-top: 100px;
+    letter-spacing: .3em;
+}
+
+
+
+/* PAGE BIOGRAFIA */
+
+.biotext{
+    margin-top: 100px;
+    margin-bottom: 95px;
+}
+
+.biotext p {
+    color: #000000;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0px 90px 0px 60px;
+    padding: 15px;
+    line-height: 35px;
+}
+
+.biotext h3 {
+    color: #000000;
+    text-align: center;
+    font-size: 4rem;
+    margin: 40px 0px 0px 0px;
+    padding: 0px;
+
+
+}
+
+/* PAGE CONTACTO*/
+
+.contact {
+    width: 80%;
+    margin: 10%;
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contacto {
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 70px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+    max-width: 100%;
+    text-align: center;
+}
+
+.contacto label {
+    display: block;
+    font-weight: bold;
+}
+
+.contacto div {
+    margin-bottom: 15px;
+}
+
+.contacto input[type='text'],
+.contacto textarea {
+    padding: 7px 6px;
+    width: 294px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow: 0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+}
+
+.contacto input[type='text']:focus,
+.contacto textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #dde9ec;
+}
+
+/* PAGE FOTOS */
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #03afff;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+}
+
+.grid-container{
+    margin-top: 85px;
+
+}
+
+
+
+/* SPOTIFY */
+
+.reproduccion h2 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #0d2033;
+    box-shadow: 0px 5px 15px rgb(50, 50, 48);
+    margin: 25px;
+    padding: 20px;
+    letter-spacing: .3em;
+}
+
+
+/*VIDEOS*/
+
+.reproduccion{
+    argin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.reproduccion .video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.reproduccion .video:nth-child(2n) {
+    flex-direction: row-reverse;
+    z-index: 99;
+}
+
+.video .info {
+
+    flex: 1;
+    max-width: 600px;
+    margin-bottom: 0;
+}
+
+
+.video .info p {
+    text-align: center;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+}
+
+
+
+
+/*PAGE FECHAS */
+
+.fechasnav {
+    background-color: #0a141d;
+}
+
+
+/* FOOTER*/
+
+footer {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: #0a141d;
+
+}
+
+.grupo-1 {
+    width: 100%;
+
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding-top: 25px;
+}
+
+.grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grupo-1 .box figure img {
+    width: 150px;
+    padding: 0px;
+}
+
+
+
+.grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: rgb(0, 0, 0);
+    transform: scale(1.30);
+
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 15px;
+}
+
+/* foto y videos */
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #03afff;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+}
+
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+
+    .navbar-brand img {
+        width: 250px;
+    }
+
+    .fechascontainer img {
+        width: 90%;
+        margin: 15px 0px;
+
+    }
+
+    .grid-container{
+        margin-top: 70px;
+
+    }
+
+
+    .fechascontainer h2 {
+        background-color: #0d2033;
+        padding: 20px;
+        color: #ffffff;
+        box-shadow: 0px 5px 15px rgb(50, 50, 48);
+        margin-top: 70px;
+        letter-spacing: .3em;
+    }
+
+    .reproduccion {
+        width: 100%;
+    }
+
+
+    .video {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+
+    .reproduccion .video {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        margin-top: 50px;
+    }
+
+    .reproduccion .video:nth-child(2n) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reproduccion iframe {
+        margin: 0 auto;
+        max-width: 1230px;
+        padding: 0 15px;
+        width: 100%;
+
+    }
+
+    .red-socialheadear {
+        display: none;
+        margin-left: 0px;
+        margin-top: 10px;
+
+    }
+
+    .red-socialheadear a {
+        margin: 20px;
+
+    }
+
+}
+
+
+@media screen and (max-width:1024px) {
+
+    .red-socialheadear {
+        display: flex;
+        justify-items: center;
+
+    }
+
+    .grupo-1 .box h2 {
+        margin-bottom: 20px;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav>li:hover {}
+
+
+
+}
+
+@media (min-width: 600px) {
+
+    .wide {
+        grid-column: span 2;
+    }
+
+    .tall {
+        grid-row: span 2;
+    }
+
+
+}
