@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $fontOpen;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: $colorNegroLetras;
+    font-family: $fontOpen;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}

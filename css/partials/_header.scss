@@ -1,0 +1,87 @@
+
+nav {
+    .container {     
+        max-width: 100%;
+        background-color: none;
+
+        .navbar-brand img {
+            transition: all 300ms;
+            width: 300px;
+    
+            &:hover {
+                transform: scale(1.30);
+            }
+    
+        }
+
+    }
+    
+        .offcanvas {
+            background-color: #1e293b;
+    
+        }
+
+        div{
+            .logocruz{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+            }
+        }
+        
+    
+}
+
+
+.offcanvas-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+
+    .btn-close {
+        align-items: none;
+    }
+}
+
+.colorfijonav {
+    background-color: #0a141d;
+}
+
+
+
+.nav-item a {
+    margin: 3px;
+    letter-spacing: .2em;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.red-socialheadear {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+
+    a {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        margin-right: 20px;
+        text-align: center;
+        transition: all 300ms ease;
+
+        &:hover {
+            color: rgb(0, 0, 0);
+            transform: scale(1.45);
+        }
+    }
+
+}
+
+
+
+
+
+
+
